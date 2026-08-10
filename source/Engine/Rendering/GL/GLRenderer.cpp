@@ -2827,6 +2827,13 @@ void GLRenderer::StrokeEllipse(float x, float y, float w, float h) {
 #endif
 }
 void GLRenderer::StrokeRectangle(float x, float y, float w, float h) {
+	w--;
+	h--;
+
+	if (w <= 0.0 || h <= 0.0) {
+		return;
+	}
+
 	GL_Predraw(NULL);
 
 #define MAKE_QUAD_SHAPE_WITH_TRIS(v, x1, y1, x2, y2) { \
