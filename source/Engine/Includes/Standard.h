@@ -12,6 +12,7 @@
 
 #include <algorithm>
 #include <csetjmp>
+#include <cmath>
 #include <deque>
 #include <filesystem>
 #include <map>

@@ -1465,6 +1465,10 @@ void Application::SetWindowSize(int window_w, int window_h) {
 		return;
 	}
 
+	if (Application::Window == nullptr) {
+		return;
+	}
+
 	SDL_SetWindowSize(Application::Window, window_w, window_h);
 
 	int defaultMonitor = Application::DefaultMonitor;

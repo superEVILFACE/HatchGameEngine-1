@@ -157,8 +157,10 @@ CPPFILES := \
 	source/Engine/ResourceTypes/SoundFormats/SoundFormat.cpp \
 	source/Engine/ResourceTypes/SoundFormats/WAV.cpp \
 	source/Engine/Scene.cpp \
+	source/Engine/Scene/ImageLayer.cpp \
 	source/Engine/Scene/SceneInfo.cpp \
 	source/Engine/Scene/SceneLayer.cpp \
+	source/Engine/Scene/TileLayer.cpp \
 	source/Engine/Scene/View.cpp \
 	source/Engine/TextFormats/INI/INI.cpp \
 	source/Engine/TextFormats/XML/XMLParser.cpp \
@@ -400,6 +402,7 @@ PUBHFILES := \
 	source/Engine/ResourceTypes/SoundFormats/SoundFormat.h \
 	source/Engine/ResourceTypes/SoundFormats/WAV.h \
 	source/Engine/Scene.h \
+	source/Engine/Scene/ImageLayer.h \
 	source/Engine/Scene/LayerGroup.h \
 	source/Engine/Scene/SceneConfig.h \
 	source/Engine/Scene/SceneEnums.h \
@@ -408,6 +411,7 @@ PUBHFILES := \
 	source/Engine/Scene/ScrollingInfo.h \
 	source/Engine/Scene/TileAnimation.h \
 	source/Engine/Scene/TileConfig.h \
+	source/Engine/Scene/TileLayer.h \
 	source/Engine/Scene/TileSpriteInfo.h \
 	source/Engine/Scene/View.h \
 	source/Engine/Sprites/Animation.h \
